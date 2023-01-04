@@ -1,7 +1,13 @@
-import { useState } from "react";
+import { Nav } from "./components/Nav";
+import { Router } from "./routes/Router";
 
 function App() {
-  return <div className="App">hello</div>;
+  return (
+    <>
+      <Nav />
+      <Router />
+    </>
+  );
 }
 
 export default App;
